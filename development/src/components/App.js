@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation'
+import Header from './Header'
 class App extends Component{
     render(){
         return (
             <div id="app">
-                <Navigation />
+                <Header />
                 <h1>My blog</h1>
             </div>
         )
